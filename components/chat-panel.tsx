@@ -99,6 +99,9 @@ const LlamaModels: React.FC<LlamaModelsProps> = ({ handleModelChange }) => {
           <SelectValue placeholder="Select a LLama" />
         </SelectTrigger>
         <SelectContent>
+          <SelectItem value="meta-llama/Llama-2-7b-chat-hf">
+            Llama-2-7b-chat-hf
+          </SelectItem>
           <SelectItem value="meta-llama/Llama-2-7b-chat-hf:joseph:eWiKAbH">
             meta-llama/Llama-2-7b-chat-hf:joseph:eWiKAbH
           </SelectItem>
